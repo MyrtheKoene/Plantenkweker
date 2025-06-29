@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planten kweker</title>
+    <link rel="icon" href="afbeeldingen/plant1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Planten kweker</h1>
+    </header>
+    <main>
+        <button id="plantButton">
+            <img src="afbeeldingen/plant1.png" alt="Plant die water nodig heeft">
+        </button>
+        
+        <p class="water-counter">Waterdruppels: <span id="counter">0</span></p>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progress"></div>
+            <span class="progress-text">Progressie</span>
+        </div>
+        
+        <audio id="lied" src="muziek/magie.wav"></audio>
+        <audio id="audio1" src="muziek/vogels.wav"></audio>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+

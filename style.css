@@ -1,0 +1,81 @@
+body {
+  background: url('afbeeldingen/achtergrond.jpg') center/cover no-repeat fixed;
+  background-color: #34932e;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: rgba(12, 77, 0, 0.8);
+  width: 100%;
+  padding: 0.5em 0;
+}
+
+
+h1 {
+  color: #fffdea;
+  font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  color: #fffdea;
+  font-size: 1.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(3, 35, 3, 0.7);
+  padding: 0.5em;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border-style: none;
+  margin: 20px auto;
+  display: block;
+  transition: transform 0.2s;
+}
+
+
+button img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+.progress-container {
+  width: 80%;
+  height: 20px;
+  background-color: rgba(224, 224, 224, 0.7);
+  margin: 3em auto 10px auto;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #4CAF50;
+  transition: width 0.3s;
+}
+
+.progress-text {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 5px;
+}
+
+.bounce {
+  animation: bounce 0.4s ease;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
+/* Elementen: RGBA-kleurwaarden */
+/* Bron: Mozilla Developer Network. (2023). <color>. MDN Web Docs. */
+/* URL: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb */
